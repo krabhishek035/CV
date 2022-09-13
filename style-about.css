@@ -1,0 +1,55 @@
+
+.container{
+    padding: 0 5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #7FBCD2;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 30px;
+
+}
+.item {
+    padding-left: 20px;
+    font-family: monospace;
+}
+.item:hover{
+    color: white;
+}
+.navbar{
+    height: 50px;
+}
+.name{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.hero{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #E7FBCD;
+    
+}
+.hero img{
+    height: 500px;
+
+}
+.hero-text{
+    margin-top: 5%;
+    font-size: 25px;
+    width : 70%;
+}

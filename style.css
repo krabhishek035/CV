@@ -1,0 +1,125 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: blue;
+}
+form{
+    margin : 35px
+}
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    width: 100%;
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    clip-path: circle(45%);
+}
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.list li{
+    padding: 10px;
+}
+.list li:hover{
+    color: rgb(243, 26, 62);
+}
+.container{
+    padding: 0 5%;
+}
+.hero-img{
+    height:300px;
+    padding-top: 100px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-text{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero-button{
+    background: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+}
+.hero-button:hover{
+background-color: black;
+color: blue;
+}
+.friend{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.friend-img{
+    height: 10px;
+    
+}
+.hobbies{
+    padding: 100px 0px;
+display: flex;
+justify-content: space-around;
+}
+.hobby-img img{
+    height: 100px;
+}
+
+.hobby {
+    height: 100px;
+    display: flex;
+    justify-items: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.about-img{
+    height: 100px;
+    clip-path: circle(50%);
+}
+.contact{
+    margin-top: 100px;
+    box-shadow: 0 0 20px 0 #999;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid rgb(103, 101, 101);
+    border-radius: 10%;
+}
